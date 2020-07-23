@@ -3,6 +3,8 @@ package junit5.tdd;
 public class FizzBuzz {
 
     public String play(int inputNumber){
+        if (inputNumber%105==0)
+            return "fizzbuzzwhizz";
         if (inputNumber%15==0)
             return "fizzbuzz";
         if (inputNumber%21==0)
