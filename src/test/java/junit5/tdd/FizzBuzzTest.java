@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class FizzBuzzTest {
     @Test
-    void should_return_fizz_when_count_off_given_1() {
+    void should_return_1_when_count_off_given_1() {
         //given
         FizzBuzz fizzBuzz=new FizzBuzz();
 
@@ -16,4 +16,5 @@ public class FizzBuzzTest {
         //then
         assertEquals("1",result);
     }
+    
 }
